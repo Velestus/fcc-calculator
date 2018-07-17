@@ -1,0 +1,32 @@
+.Button {
+  border-radius: 10px;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 0 4px 10px 8px;
+  width: 50px;
+  height: 40px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.Button:active {
+  box-shadow: 0px 0px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+  transform: translateY(3px);
+  
+}
+.Button-red {
+  background-color: #a72d45;
+  box-shadow: 0px 3px 0px 0px #671c2a, inset -1px -3px 10px 1px #c23450;
+}
+.Button-red:active {
+  box-shadow: 0px 0px 0px 0px #671c2a, inset -1px -3px 10px 1px #c23450;
+  transform: translateY(3px);
+}
